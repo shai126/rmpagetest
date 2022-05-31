@@ -1,0 +1,8 @@
+<body>
+  <div>Loading...</div>
+
+  <script>
+    const subdomain = window.location.hostname.match(/^[^.]+/)[0];
+    document.querySelector('div').innerText = 'Here is the thank you page for ' + subdomain;
+  </script>
+</body>
